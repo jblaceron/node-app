@@ -1,6 +1,6 @@
 {
   "name": "node-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "hello jenkins test app",
   "main": "index.js",
   "scripts": {
