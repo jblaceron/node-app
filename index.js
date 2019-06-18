@@ -5,7 +5,7 @@ var app = express();
 
 //Respond with "hello world" for requests that hit our root "/"
 app.get('/', function (req, res) {
- res.send('testing ci!');
+ res.send('This is a basic example of a ci/cd workflow!');
 });
 
 app.get('/hello', function (req, res) {
