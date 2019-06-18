@@ -1,0 +1,10 @@
+
+#!/bin/sh
+
+ssh jaceron@165.22.96.241 <<EOF
+   cd ~/node-app
+   git pull
+   npm install
+   pm2 restart all
+   exit
+EOF
